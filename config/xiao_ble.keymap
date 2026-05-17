@@ -9,7 +9,7 @@
         default_layer {
             bindings = <
                 &kp F       /* Wired to D0 */
-                &kp BT_NXT       /* Wired to D1, Switches to next BT profile */
+                &bt BT_NXT       /* Wired to D1, Switches to next BT profile */
                 &kp LEFT    /* Wired to D2 */
                 &kp RIGHT   /* Wired to D3 */
                 &kp SPACE   /* Wired to D4 */
