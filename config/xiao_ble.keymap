@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h> 
 
 / {
     keymap {
@@ -7,8 +8,8 @@
 
         default_layer {
             bindings = <
-                &kp K       /* Wired to D0 */
-                &kp F       /* Wired to D1 */
+                &kp F       /* Wired to D0 */
+                &kp BT_NXT       /* Wired to D1, Switches to next BT profile */
                 &kp LEFT    /* Wired to D2 */
                 &kp RIGHT   /* Wired to D3 */
                 &kp SPACE   /* Wired to D4 */
